@@ -32,8 +32,6 @@ public class App {
         server.join();
     }
 
-
-
     private static void registerServlets(ServletContextHandler context)  {
         final ClassLoader loader = Thread.currentThread().getContextClassLoader();
         try {
@@ -60,6 +58,4 @@ public class App {
         }
 
     }
-
-
 }
